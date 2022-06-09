@@ -109,6 +109,11 @@ $ docker load -i eldar-java.tar
 > http://api.boxofcodes.com/swagger-ui.html
 
 ### IONIC
+
+#### Subdominio de Prueba
+
+> http://app.boxofcodes.com/
+
 > docker build -t eldar-ionic .
 
 > docker run --name eldar-ionic-docker -p 8084:80 eldar-ionic
