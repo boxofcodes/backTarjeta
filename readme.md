@@ -109,10 +109,11 @@ $ docker load -i eldar-java.tar
 > http://api.boxofcodes.com/swagger-ui.html
 
 ### IONIC
-  1 docker build -t eldar-ionic .
-  2 docker run --name eldar-ionic-docker -p 8084:80 eldar-ionic
-  3 docker save -o /home/sebastian/Desktop/ELDAR/dockerimages/eldar-ionic.tar eldar-ionic
-  4 rsync -avz eldar-ionic.tar root@boxofcodes.com:/root/dockerImages
-  5 docker load -i eldar-java.tar
-  6 docker run --name eldar-ionic-docker -p 8084:80 eldar-ionic
+
+  > docker build -t eldar-ionic .
+  > docker run --name eldar-ionic-docker -p 8084:80 eldar-ionic
+  > docker save -o /home/sebastian/Desktop/ELDAR/dockerimages/eldar-ionic.tar eldar-ionic
+  > rsync -avz eldar-ionic.tar root@boxofcodes.com:/root/dockerImages
+  > docker load -i eldar-java.tar
+  > docker run --name eldar-ionic-docker -p 8084:80 eldar-ionic
 
